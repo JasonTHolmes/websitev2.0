@@ -56,12 +56,12 @@ li a {
 #resume-link {
     margin-top: 18px;
     border: solid 2px rgb(184, 61, 186);
-    border-radius: 5px;
     font-size: 20px;
     padding: 10px;
     float: right;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
