@@ -1,4 +1,5 @@
 * {
+    text-decoration: none;
     margin: 0;
     padding: 0;
     font-family: raleway, Arial, helvetica;
@@ -14,18 +15,13 @@ body {
     font-weight: 300;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-    width: 70%;
+    width: 94%;
     margin: auto;
 }
 
 /* ---------- */
 /* -----NAVIGATION BAR----- */
 /* ---------- */
-
-#logo,
-#resume-link {
-    margin-top: 18px;
-}
 
 nav {
     /* border: solid 2px red; */
@@ -36,12 +32,14 @@ nav {
 }
 
 #logo {
+    margin-top: 18px;
     height: 50px;
     width: 50px;
 }
 
 li {
     /* border: solid 2px red; */
+    font-family: "Orbitron";
     color: grey;
     margin-top: 30px;
     list-style: decimal-leading-zero;
@@ -56,6 +54,7 @@ span {
 #resume-link {
     border: solid 1px rgb(184, 61, 186);
     font-size: 20px;
+    margin-top: 18px;
     padding: 10px;
     float: right;
     border-radius: 7px;
@@ -65,28 +64,61 @@ span {
     -o-border-radius: 7px;
 }
 
+
 /* ---------- */
 /* ----- HEADER CONTENT ----- */
 /* ---------- */
 
 .content-container {
-    border: solid 1px rgb(255, 0, 0);
-    margin: auto;
-    width: 950px;
-    height: 700px;
+    /* border: solid 1px rgb(184, 61, 186); */
+    margin: 210px auto;
+    width: 900px;
+    height: 500px;
 }
 
 #introduction {
+    font-family: "Orbitron";
     font-size: 20px;
-    color: rgb(184, 61, 186);
 }
 
 #my-name{
-    font-size: 70px;
-    color: rgb(224, 170, 245);
+    margin-top: 15px;
+    font-size: 75px;
+    color: rgb(176, 132, 194);
 }
 
 #what-i-do {
-    font-size: 70px;
-    color: rgb(201, 65, 255);
+    margin-top: 5px;
+    font-size: 68px;
+    color: rgb(127, 115, 133);
+}
+
+.header-content-paragraph {
+    margin-top: 30px;
+    width: 50%;
+    color: rgb(127, 115, 133);
+}
+
+#get-in-touch-button {
+    font-family: "Orbitron";
+    margin-top: 70px;
+    height: 50px;
+    width: 156px;
+    border: solid 1px rgb(184, 61, 186);
+    border-radius: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* ---------- */
+/* ----- ABOUT ME ----- */
+/* ---------- */
+
+.about {
+    border: solid 1px rgb(184, 61, 186);
+    height: 950px;
+    margin: 210px auto;
+    width: 900px;
 }
