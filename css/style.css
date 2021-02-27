@@ -72,6 +72,21 @@ span {
 .content-container {
     border: solid 1px rgb(255, 0, 0);
     margin: auto;
-    width: 900px;
+    width: 950px;
     height: 700px;
+}
+
+#introduction {
+    font-size: 20px;
+    color: rgb(184, 61, 186);
+}
+
+#my-name{
+    font-size: 70px;
+    color: rgb(224, 170, 245);
+}
+
+#what-i-do {
+    font-size: 70px;
+    color: rgb(201, 65, 255);
 }
