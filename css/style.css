@@ -117,8 +117,37 @@ span {
 /* ---------- */
 
 .about {
-    border: solid 1px rgb(184, 61, 186);
     height: 950px;
     margin: 210px auto;
     width: 900px;
 }
+.about-header {
+    border: solid 1px khaki;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.about-paragraph{
+    width: 500px;
+    padding-left: 0;
+    margin: 150px 20px;
+
+}
+
+ table{
+     padding-left: 0px;
+     border: solid 1px khaki;
+     border-collapse: collapse;
+ }
+
+ tr {
+     padding: 0;
+ }
+
+ .about-list {
+     margin-top: 10px;
+     font-size: 15px;
+     padding-left: 15px;
+     list-style-type: "➢";
+     color: khaki;
+ }
