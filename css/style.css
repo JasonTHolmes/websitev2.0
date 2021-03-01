@@ -117,17 +117,20 @@ span {
 /* ---------- */
 
 .about {
+    border: solid 1px rgb(255, 0, 0);
     height: 950px;
     margin: 210px auto;
     width: 900px;
 }
 .about-header {
     border: solid 1px khaki;
+    float: left;
     margin-left: 40px;
     padding: 0;
 }
 
 .about-paragraph{
+    float: left;
     width: 500px;
     padding-left: 0;
     margin: 150px 20px;
@@ -141,6 +144,7 @@ span {
  }
 
  tr {
+     border: solid 1px khaki;
      padding: 0;
  }
 
@@ -150,4 +154,10 @@ span {
      padding-left: 15px;
      list-style-type: "➢";
      color: khaki;
+ }
+
+ .about-image {
+     height: 300px;
+     width: 300px;
+     float: right;
  }
