@@ -37,7 +37,7 @@ nav {
     width: 50px;
 }
 
-li {
+.navigation-link-list {
     /* border: solid 2px red; */
     font-family: "Orbitron";
     color: grey;
@@ -130,7 +130,7 @@ span {
 }
 
 .about-paragraph{
-    border: solid 1px khaki;
+    /* border: solid 1px khaki; */
     float: left;
     width: 500px;
     padding-left: 0;
@@ -139,18 +139,21 @@ span {
 }
 
  table{
-     padding-left: 0px;
-     border: solid 1px khaki;
+
+     /* border: solid 1px khaki; */
      border-collapse: collapse;
  }
 
  tr {
-     border: solid 1px khaki;
+     /* border: solid 1px khaki; */
+     justify-content: left;
      padding: 0;
  }
 
  .about-list {
-     margin-top: 10px;
+     float: left;
+     margin-left: 15px;
+     margin-top: 15px;
      font-size: 15px;
      padding-left: 15px;
      list-style-type: "➢";
@@ -161,5 +164,6 @@ span {
      height: 250px;
      width: 250px;
      float: right;
-     margin-top: 190px;
+     margin-top: 100px;
+     box-shadow: 10px 10px 0px 0px rgba(133, 133, 133, 0.267);;
  }
