@@ -5,52 +5,50 @@
     font-family: raleway, Arial, helvetica;
     color: #b83dba;
     background-color: #0a262f;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 html body {
     font-size: 20px;
     font-weight: 300;
-    text-rendering: optimizeLegibility;
     overflow-x: hidden;
-    width: 94%;
-    margin: auto;
 }
 
 /* ---------- */
 /* -----NAVIGATION BAR----- */
 /* ---------- */
-.navigation-container {
-    border: solid 2px red;
-}
-
 nav {
-    /* border: solid 2px red; */
-    width: 820px;
-    float: right;
-    margin: 0;
-    display: block;
+    margin: 18px auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 80%;
 }
 
 #logo {
-    margin-top: 18px;
     height: 50px;
     width: 50px;
 }
 
-.navigation-link-list {
-    /* border: solid 2px red; */
-    font-family: "Orbitron";
-    color: grey;
-    margin-top: 30px;
-    list-style: decimal-leading-zero;
-    margin-left: 100px;
-    float: left;
+ol {
+    display: inline;
+    float: right;
+    margin-right: 180px;
+    /* border: solid 1px red; */
 }
 
-span {
-    color: rgb(184, 61, 186);
+li{
+    border: solid 1px red;
+    float: left;
+    list-style: decimal-leading-zero;
+    margin: 0px 80px;
+    font-family: 'Orbitron';
+    color: grey;
+}
+
+.navigation-link-list {
+    margin-left: 50px;
 }
 
 #resume-link {
@@ -66,42 +64,58 @@ span {
     -o-border-radius: 7px;
 }
 
+/* .navigation-container {
+    border: solid 2px red;
+    position: fixed;
+    margin: auto;
+    width: 95%;
+} */
+
+
+
+
+
+/* span {
+    color: rgb(184, 61, 186);
+} */
+
+
+
 
 /* ---------- */
 /* ----- HEADER CONTENT ----- */
 /* ---------- */
 
-.content-container {
-    /* border: solid 1px rgb(184, 61, 186); */
+/* .content-container {
     margin: 210px auto;
     width: 900px;
     height: 500px;
-}
+} */
 
-#introduction {
+/* #introduction {
     font-family: "Orbitron";
     font-size: 20px;
-}
+} */
 
-#my-name {
+/* #my-name {
     margin-top: 15px;
     font-size: 75px;
     color: rgb(176, 132, 194);
-}
+} */
 
-#what-i-do {
+/* #what-i-do {
     margin-top: 5px;
     font-size: 68px;
     color: rgb(127, 115, 133);
-}
+} */
 
-.header-content-paragraph {
+/* .header-content-paragraph {
     margin-top: 30px;
     width: 50%;
     color: rgb(127, 115, 133);
-}
+} */
 
-#get-in-touch-button {
+/* #get-in-touch-button {
     font-family: "Orbitron";
     margin-top: 70px;
     height: 50px;
@@ -112,48 +126,45 @@ span {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
+} */
 
 /* ---------- */
 /* ----- ABOUT ME ----- */
 /* ---------- */
 
-section {
+/* section {
     border: solid 1px rgb(255, 0, 0);
-    height: 650px;
+    height: 90%;
     margin: 210px auto;
     width: 900px;
-}
+} */
 
-.section-header {
+/* .section-header {
     border: solid 1px khaki;
     float: left;
     margin-top: 90px;
     margin-left: 40px;
     padding: 0;
-}
+} */
 
-.about-paragraph {
-    /* border: solid 1px khaki; */
+/* .about-paragraph {
     float: left;
     width: 500px;
     padding-left: 0;
     margin-left: -125px;
     margin-top: 190px;
-}
+} */
 
-table {
-    /* border: solid 1px khaki; */
+/* table {
     border-collapse: collapse;
-}
+} */
 
-tr {
-    /* border: solid 1px khaki; */
+/* tr {
     justify-content: left;
     margin-left: 10px;
-}
+} */
 
-.about-list {
+/* .about-list {
     float: left;
     margin-left: 15px;
     margin-top: 15px;
@@ -161,16 +172,16 @@ tr {
     padding-left: 15px;
     list-style-type: "➢";
     color: khaki;
-}
+} */
 
-.about-image {
+/* .about-image {
     height: 350px;
     width: 350px;
     float: right;
     margin-top: 100px;
     margin-right: 25px;
     box-shadow: 2px 2px 5px white, 10px 10px #0a262f, 11px 11px 0px 3px black;
-}
+} */
 
 /* ---------- */
 /* ----- EXPERIENCE ----- */
