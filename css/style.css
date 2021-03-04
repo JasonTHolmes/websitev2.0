@@ -25,31 +25,38 @@ nav {
     position: fixed;
     left: 0;
     right: 0;
-    width: 93%;
+    width: 90%;
 }
 
 #logo {
+    float: left;
     height: 35px;
     width: 35px;
 }
 
-ol {
-    display: inline;
-    float: right;
-    margin-right: 180px;
-}
+
 
 li{
-    border: solid 1px rgb(255, 255, 255);
+    font-size: 15px;
     float: left;
     list-style: decimal-leading-zero;
-    margin: 0px 80px;
+    margin: 0px 26px;
     font-family: 'Orbitron';
     color: rgb(83, 83, 83);
 }
 
-.navigation-link-list {
-    margin-left: 50px;
+
+
+#resume-button {
+    border: solid 1px red;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    float: right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 /* #resume-link {
