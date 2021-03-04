@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: raleway, Arial, helvetica;
-    color: #b83dba;
+    color: #ff00cc;
     background-color: #0a262f;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -20,6 +20,7 @@ body {
 /* ---------- */
 /* -----NAVIGATION BAR----- */
 /* ---------- */
+
 nav {
     margin: 30px auto;
     position: fixed;
@@ -30,63 +31,60 @@ nav {
 
 #logo {
     float: left;
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
 }
 
+#logo:hover {
+    box-shadow: 0 0 10px 10px #ff00cc;
+}
 
+.clearfix:after {
+    background-color: greenyellow;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper{
+    float: right;
+}
+
+ol{
+    margin-right: 80px ;
+}
 
 li{
-    font-size: 15px;
     float: left;
+    margin: 10px 35px;
     list-style: decimal-leading-zero;
-    margin: 0px 26px;
-    font-family: 'Orbitron';
-    color: rgb(83, 83, 83);
+    font-size: 15px;
+    font-family: 'roboto mono';
+    color: rgb(245, 245, 245);
 }
 
-
-
 #resume-button {
-    border: solid 1px red;
+    border: solid 1px #ff00cc;
     border-radius: 5px;
     font-size: 15px;
     padding: 10px;
-    float: right;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    transition: background-color 0.4s, color 0.4s;
+    -webkit-transition: background-color 0.4s, color 0.4s;
+    -moz-transition: background-color 0.4s, color 0.4s;
+    -ms-transition: background-color 0.4s, color 0.4s;
+    -o-transition: background-color 0.4s, color 0.4s;
 }
 
-/* #resume-link {
-    border: solid 1px rgb(184, 61, 186);
-    font-size: 20px;
-    margin-top: 18px;
-    padding: 10px;
-    float: right;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-} */
-
-/* .navigation-container {
-    border: solid 2px red;
-    position: fixed;
-    margin: auto;
-    width: 95%;
-} */
-
-
-
-
-
-/* span {
-    color: rgb(184, 61, 186);
-} */
-
+#resume-button:hover{
+    cursor: pointer;
+    background-color: #ff00cc5e;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
 
 
 
