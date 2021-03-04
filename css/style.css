@@ -9,9 +9,11 @@
     -webkit-box-sizing: border-box;
 }
 
-html body {
+html
+body {
     font-size: 20px;
     font-weight: 300;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -19,39 +21,38 @@ html body {
 /* -----NAVIGATION BAR----- */
 /* ---------- */
 nav {
-    margin: 18px auto;
+    margin: 30px auto;
     position: fixed;
     left: 0;
     right: 0;
-    width: 80%;
+    width: 93%;
 }
 
 #logo {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 
 ol {
     display: inline;
     float: right;
     margin-right: 180px;
-    /* border: solid 1px red; */
 }
 
 li{
-    border: solid 1px red;
+    border: solid 1px rgb(255, 255, 255);
     float: left;
     list-style: decimal-leading-zero;
     margin: 0px 80px;
     font-family: 'Orbitron';
-    color: grey;
+    color: rgb(83, 83, 83);
 }
 
 .navigation-link-list {
     margin-left: 50px;
 }
 
-#resume-link {
+/* #resume-link {
     border: solid 1px rgb(184, 61, 186);
     font-size: 20px;
     margin-top: 18px;
@@ -62,7 +63,7 @@ li{
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
-}
+} */
 
 /* .navigation-container {
     border: solid 2px red;
