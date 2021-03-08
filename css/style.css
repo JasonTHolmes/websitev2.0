@@ -172,7 +172,13 @@ li{
     font-size: 15px;
 }
 
+/* .about-section{
+    display: inline-block;
+
+} */
+
 .photo {
+    margin-left: 50px;
     height: 200px;
     width: 200px;
     float: right;
