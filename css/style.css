@@ -68,8 +68,13 @@ ol{
     margin-top: 10px;
     margin-right: 30px ;
 }
-
 li{
+    font-size: 15px;
+    font-family: 'roboto mono';
+    color: rgb(255, 255, 255);
+}
+
+.navigation-link{
     float: left;
     margin: 0 50px;
     list-style: decimal-leading-zero;
@@ -171,17 +176,25 @@ li{
     color: rgb(255, 255, 255);
     font-size: 15px;
 }
+.section-header-list-style{
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.section-header{
+    font-size: 30px;
+}
 
 .about-paragraph {
     width: 60%;
     float: left;
+    line-height: 25px;
 }
 
 .photo {
     float: left;
     margin: 17px 0 0 50px;
-    height: 225px;
-    width: 225px;
+    width: 30%;
     box-shadow: 25px 25px 5px 5px #ff00cc5b;
 }
 
