@@ -23,17 +23,22 @@ html body {
 
 nav,
 #logo,
-ol{
-    background-color: #00333d;
+.navigation-list-container,
+.navigation-link-list,
+.navigation-list-text,
+#resume-button{
+    background-color: #004e5e;
 }
 
 
 nav {
+    box-shadow: 0 0 10px 10px rgb(24, 24, 24);
     margin: auto;
     position: fixed;
     left: 0;
     right: 0;
     width: 100%;
+    z-index: 1;
 }
 
 #logo {
@@ -239,6 +244,7 @@ li{
     height: 400px;
     width: 600px;
     position: absolute;
+    
 }
 
 .work-header {
@@ -252,5 +258,4 @@ li{
     height: 400px;
     width: 600px;
     position: absolute;
-    z-index: 0;
 }
