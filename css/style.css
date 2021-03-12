@@ -124,7 +124,6 @@ li{
     min-height: 99vh;
     width: 70%;
     margin: auto;
-    /* border: solid 1px red; */
 }
 
 .header-one,
@@ -189,6 +188,11 @@ li{
     width: 60%;
     float: left;
     line-height: 25px;
+    background-color: #0f3744;
+    width: 800px;
+    padding: 20px;
+    box-shadow: 10px 5px 30px 5px #051318;
+    /* margin: 100px 490px; */
 }
 
 .photo {
@@ -201,14 +205,14 @@ li{
 /* --------------------------------------- */
 /* --------EXPERIENCE SECTION------------- */
 /* --------------------------------------- */
-.website-window {
+.work-website-window {
     height: 400px;
     width: 600px;
     pointer-events: none;
     float: left;
 }
 
-.paragraph {
+.work-paragraph {
     background-color: #0f3744;
     width: 400px;
     padding: 20px;
@@ -216,7 +220,7 @@ li{
     margin: 100px 490px;
 }
 
-.wrapper {
+.work-wrapper {
     background-color: transparent;
     height: 400px;
     width: 600px;
@@ -224,20 +228,20 @@ li{
     position: relative;
 }
 
-.header1 {
+.work-header1 {
     background-color: rgba(102, 103, 126, 0.705);
     height: 400px;
     width: 600px;
     position: absolute;
 }
 
-.header {
+.work-header {
     height: 0px;
     width: 0px;
     position: absolute;
 }
 
-.header1:hover{
+.work-header1:hover{
     background-color: rgba(255, 255, 255, 0);
     height: 400px;
     width: 600px;
