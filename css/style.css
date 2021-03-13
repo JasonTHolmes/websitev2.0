@@ -42,7 +42,7 @@ nav {
 }
 
 #logo {
-    margin: 20px 0 5px 30px;
+    margin: 20px 0 20px 30px;
     float: left;
     height: 45px;
     width: 45px;
@@ -139,20 +139,21 @@ li{
     margin: 15px 0;
 }
 
-.header-one {
-    font-size: 80px;
+.header-one,
+.header-two,
+.header-three {
     color: rgb(182, 182, 182);
 }
 
+.header-one {
+    font-size: 80px;
+}
+
+.header-three,
 .header-two {
-    color: rgb(219, 1, 219);
     font-size: 50px;
 }
 
-.header-three {
-    color: rgb(160, 160, 160);
-    font-size: 50px;
-}
 
 .paragraph {
     float: left;
@@ -192,7 +193,6 @@ li{
 }
 
 .about-paragraph {
-    width: 60%;
     float: left;
     line-height: 25px;
     background-color: #0f3744;
@@ -204,7 +204,7 @@ li{
 
 .photo {
     float: left;
-    margin: 17px 0 0 50px;
+    margin: 0px 0 0 100px;
     width: 30%;
     box-shadow: 7px 7px 0px 1px #ff00cc5b;
 }
@@ -215,34 +215,36 @@ li{
 /* --------------------------------------- */
 /* --------------------------------------- */
 /* --------------------------------------- */
-
+#work{
+    width: 80%;
+    margin: 0 auto;
+}
+.work-header1:hover,
+.work-header1,
+.work-wrapper,
 .work-website-window {
-    height: 400px;
-    width: 600px;
-    pointer-events: none;
-    float: left;
+    height: 200px;
+    width: 400px;
 }
 
 .work-paragraph {
     background-color: #0f3744;
+    font-size: 18px;
     width: 400px;
     padding: 20px;
     box-shadow: 10px 5px 30px 5px #051318;
-    margin: 100px 490px;
+    margin: 40px 290px;
 }
 
 .work-wrapper {
     background-color: transparent;
-    height: 400px;
-    width: 600px;
     margin: 20px;
+    margin-bottom: 230px;
     position: relative;
 }
 
 .work-header1 {
     background-color: rgba(102, 103, 126, 0.705);
-    height: 400px;
-    width: 600px;
     position: absolute;
     
 }
@@ -255,7 +257,21 @@ li{
 
 .work-header1:hover {
     background-color: rgba(255, 255, 255, 0);
-    height: 400px;
-    width: 600px;
     position: absolute;
+}
+
+.oddnums{
+    float: left;
+    margin-bottom: 120px;
+    margin-right: 300px ;
+}
+
+.evennums{
+    margin-top: 230px;
+    float: right;
+}
+
+.even-para {
+    margin-top: 30px;
+    margin-left: -290px;
 }
