@@ -309,3 +309,7 @@ li {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+.list-wrapper {
+    border: solid 1px red;
+}
