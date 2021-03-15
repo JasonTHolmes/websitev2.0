@@ -201,7 +201,7 @@ li {
     float: left;
     line-height: 25px;
     background-color: #0f3744;
-    width: 700px;
+    width: 600px;
     padding: 20px;
     box-shadow: 10px 5px 30px 5px #051318;
 }
@@ -221,7 +221,7 @@ li {
 /* --------------------------------------- */
 #work {
     padding-top: 173px;
-    width: 60%;
+    width: 75%;
 }
 
 .section-header {
