@@ -33,7 +33,7 @@ nav,
 
 
 nav {
-    box-shadow: 0 0 10px 10px rgb(24, 24, 24);
+    box-shadow: 0 0 9px 9px rgb(46, 46, 46);
     margin: auto;
     position: fixed;
     left: 0;
@@ -43,7 +43,7 @@ nav {
 }
 
 #logo {
-    margin: 20px 0 20px 30px;
+    margin: 20px 0 10px 30px;
     float: left;
     height: 45px;
     width: 45px;
@@ -151,7 +151,7 @@ li {
 }
 
 .header-one {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .header-three,
