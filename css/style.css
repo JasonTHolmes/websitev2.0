@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: "raleway", Arial, helvetica;
-    color: #ff00cc;
-    background-color: #035768;
+    color: #00d9ff;
+    background-color: #005263;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ nav,
 .navigation-link-list,
 .navigation-list-text,
 #resume-button {
-    background-color: #004e5e;
+    background-color: #006074;
 }
 
 
@@ -95,7 +95,7 @@ li {
 #resume-button {
     float: right;
     margin-top: 1px;
-    border: solid 1px #ff00cc;
+    border: solid 1px #00d9ff;
     border-radius: 5px;
     font-size: 15px;
     padding: 10px;
@@ -166,7 +166,7 @@ li {
 }
 
 .contact-button {
-    border: solid 1px #ff00cc;
+    border: solid 1px #00d9ff;
     border-radius: 5px;
     font-size: 15px;
     padding: 10px;
@@ -263,7 +263,7 @@ li {
 }
 
 .work-header1 {
-    background-color: rgba(61, 66, 88, 0.842);
+    background-color: rgba(102, 105, 119, 0.842);
     position: absolute;
 }
 
