@@ -7,6 +7,7 @@
     background-color: #005263;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html body {
@@ -385,8 +386,13 @@ table {
     width: 130px;
 }
 
-.icon-link{
+.icon-link {
     margin-right:20px;
+}
+
+.icon-link:hover {
+    filter: brightness(3) invert(1) grayscale(3);
+    height: 30px;
 }
 
 /* --------------------------------------- */
@@ -397,7 +403,6 @@ table {
 /* --------------------------------------- */
 
 .contact-link-list-wrapper {
-    /* border: solid 1px red; */
     list-style-type: none;
     margin-bottom: 120px;
     position: fixed;
@@ -418,7 +423,6 @@ table {
 }
 
 .email-link{
-    /* border: solid 1px red; */
     writing-mode: vertical-rl;
     position: fixed;
     bottom: 0;
@@ -458,17 +462,14 @@ table {
 /* --------------------------------------- */
 
 footer {
-    background-color: #005263;
     padding-top: 60px;
     padding-bottom: 20px;
-    /* border: solid 1px red; */
     width: 100%;
 }
 
 .footer-content {
-background-color: #005263;
+    background-color: #005263;
     text-align: center;
-    /* border: solid 1px red; */
     width: 80%;
     margin: auto;
 }
