@@ -273,7 +273,7 @@ li {
     width: 400px;
     padding: 10px;
     box-shadow: 10px 5px 30px 5px #051318;
-    margin: 50px 290px;
+    margin: 45px 290px;
 }
 
 .work-wrapper:first-child {
@@ -282,7 +282,7 @@ li {
 
 .work-wrapper {
     background-color: transparent;
-    margin: 150px 0px;
+    margin: 125px 0px;
     position: relative;
 }
 
@@ -303,7 +303,7 @@ li {
 
 .work-header1:hover {
     background-color: rgba(255, 255, 255, 0);
-    position: absolute;
+    /* position: absolute; */
 }
 
 .website-wrapper {
@@ -312,7 +312,7 @@ li {
 }
 
 .right-col {
-    margin: 170px 0px 0px 0px;
+    margin: 160px 0px 0px 0px;
 }
 
 .even-para {
@@ -367,7 +367,7 @@ table {
 }
 
 .table-title {
-    width: 700px;
+    width: 550px;
     color: lightcoral;
 }
 
@@ -399,7 +399,7 @@ table {
 .contact-link-list-wrapper {
     /* border: solid 1px red; */
     list-style-type: none;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -425,9 +425,29 @@ table {
     right: 0;
     margin-top: 0;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     font-size: 17px;
     cursor: pointer;
+}
+
+.right-line {
+    writing-mode: vertical-rl;
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 60px;
+}
+
+.left-line {
+    writing-mode: vertical-rl;
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 60px;
 }
 
 /* --------------------------------------- */
@@ -438,13 +458,15 @@ table {
 /* --------------------------------------- */
 
 footer {
-    margin-top: 60px;
+    background-color: #005263;
+    padding-top: 60px;
+    padding-bottom: 20px;
     /* border: solid 1px red; */
     width: 100%;
 }
 
 .footer-content {
-
+background-color: #005263;
     text-align: center;
     /* border: solid 1px red; */
     width: 80%;
