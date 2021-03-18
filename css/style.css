@@ -43,7 +43,7 @@ nav {
 }
 
 #logo {
-    margin: 20px 0 10px 30px;
+    margin: 10px 0 10px 30px;
     float: left;
     height: 45px;
     width: 45px;
@@ -66,7 +66,7 @@ nav {
 
 .nav-wrapper {
     background-color: transparent;
-    margin: 20px 50px 0 0;
+    margin: 10px 50px 0 0;
     float: right;
 }
 
@@ -159,7 +159,6 @@ li {
     font-size: 50px;
 }
 
-
 .paragraph {
     float: left;
     width: 70%;
@@ -199,6 +198,9 @@ li {
 /* --------------------------------------- */
 /* --------------------------------------- */
 /* --------------------------------------- */
+.about-section {
+    width: 75%;
+}
 
 .section-header {
     font-size: 30px;
@@ -206,7 +208,8 @@ li {
 
 .about-paragraph {
     float: left;
-    line-height: 25px;
+
+    line-height: 35px;
     background-color: #0f3744;
     width: 600px;
     padding: 20px;
@@ -214,8 +217,7 @@ li {
 }
 
 .photo {
-    float: left;
-    margin: 0px 0 0 70px;
+    float: right;
     width: 25%;
     box-shadow: 7px 7px 0px 1px #ff00cc5b;
 }
@@ -226,6 +228,7 @@ li {
 /* --------------------------------------- */
 /* --------------------------------------- */
 /* --------------------------------------- */
+
 #work {
     padding-top: 173px;
     width: 75%;
@@ -249,12 +252,16 @@ li {
     width: 400px;
     padding: 10px;
     box-shadow: 10px 5px 30px 5px #051318;
-    margin: 30px 290px;
+    margin: 50px 290px;
+}
+
+.work-wrapper:first-child {
+    margin-top: 15px;
 }
 
 .work-wrapper {
     background-color: transparent;
-    margin: 100px 0px;
+    margin: 150px 0px;
     position: relative;
 }
 
@@ -289,11 +296,11 @@ li {
 
 .right-col {
     float: right;
-    margin: 150px 0px 0px 0px;
+    margin: 170px 0px 0px 0px;
 }
 
 .even-para {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: -290px;
 }
 
@@ -350,19 +357,74 @@ table {
 }
 
 .table-made-at {
-    width: 190px;
+    width: 100px;
     color: grey;
 }
 
 .table-built-with {
-    width: 175px;
+    width: 145px;
     color: grey;
 }
 
 .table-links {
-    width: 120px;
+    width: 130px;
 }
 
 .icon-link{
-    margin-right:15px;
+    margin-right:20px;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------CONTACT SECTION------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.contact-link-list-wrapper {
+    /* border: solid 1px red; */
+    float: left;
+    list-style-type: none;
+    margin-bottom: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.contact-link-list:first-child{
+    margin-top: 0;
+}
+
+.contact-link-list:last-child {
+    margin-bottom: 0;
+}
+
+.contact-link-list {
+    margin: 20px 0 0 50px;
+}
+
+.email-link{
+    /* border: solid 1px red; */
+    writing-mode: vertical-rl;
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------FOOTER SECTION------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+footer {
+    width: 100%;
+    margin: auto;
 }
