@@ -232,15 +232,31 @@ li {
 }
 
 .about-paragraph {
-    line-height: 35px;
+    line-height: 40px;
     background-color: #0f3744;
-    width: 600px;
+    width: 500px;
+    /* height: 250px; */
     padding: 20px;
     box-shadow: 10px 5px 30px 5px #051318;
 }
 
+#learn-more-button {
+    border: solid 1px #ff00cc;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
 .photo {
-    width: 30%;
+    margin-top: 13px;
+    max-width: 35%;
     box-shadow: 7px 7px 0px 1px #ff00cc5b;
 }
 
@@ -419,7 +435,7 @@ table {
 }
 
 .contact-link-list {
-    margin: 20px 0 0 50px;
+    margin: 40px 0 0 50px;
 }
 
 .email-link{
@@ -431,6 +447,7 @@ table {
     margin-right: 50px;
     margin-bottom: 120px;
     font-size: 17px;
+    letter-spacing: 3px;
     cursor: pointer;
 }
 
