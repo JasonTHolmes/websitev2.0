@@ -322,7 +322,6 @@ li {
 
 .work-header1:hover {
     background-color: rgba(255, 255, 255, 0);
-    /* position: absolute; */
 }
 
 .website-wrapper {
@@ -363,8 +362,14 @@ table {
     border-spacing: 5px;
 }
 
-.table-wrapper {
+#more-work-list {
+    box-shadow: inset 0 -9px 9px rgba(37, 37, 37, 0.836), inset 0px 9px 9px rgba(37, 37, 37, 0.836);
+    padding-top: 95px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 95px;
     width: 100%;
+    display: none;
 }
 
 
@@ -421,6 +426,7 @@ table {
 /* --------------------------------------- */
 
 .contact-link-list-wrapper {
+    background-color: transparent;
     list-style-type: none;
     margin-bottom: 120px;
     position: fixed;
@@ -441,6 +447,7 @@ table {
 }
 
 .email-link{
+    background-color: transparent;
     writing-mode: vertical-rl;
     position: fixed;
     bottom: 0;
