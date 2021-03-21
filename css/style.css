@@ -414,7 +414,6 @@ table {
 }
 
 .icon-link:hover {
-    filter: brightness(3) invert(1) grayscale(3);
     height: 30px;
 }
 
@@ -432,6 +431,10 @@ table {
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+.contact-icon{
+    background-color: transparent;
 }
 
 .contact-link-list:first-child{
