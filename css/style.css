@@ -67,6 +67,20 @@ nav,
     background-color: #006074;
 }
 
+#more-work-list,
+.table-container,
+.table-header,
+.table-year,
+.table-title,
+.table-made-at, 
+.table-built-with,
+.table-links,
+.icon-link,
+.link-icon,
+.icon-link:hover {
+    background-color: #004857;
+}
+
 /* --------------------------------------- */
 /* --------------------------------------- */
 /* ------------- NAVIGATION BAR ---------- */
@@ -270,10 +284,6 @@ li {
 /* --------------------------------------- */
 /* --------------------------------------- */
 
-.work-section {
-    padding-top: 100px;
-}
-
 .section-header {
     margin-bottom: 20px;
 }
@@ -296,7 +306,7 @@ li {
 }
 
 .work-wrapper:first-child {
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 .work-wrapper {
@@ -325,6 +335,7 @@ li {
 }
 
 .website-wrapper {
+    border: solid 1px rgb(0, 0, 255);
     width: 100%;
     margin: auto;
 }
@@ -338,19 +349,13 @@ li {
     margin-left: -290px;
 }
 
-table {
-    margin-bottom: 20px;
-    border-spacing: 5px;
-}
-
 #more-work-list {
     margin-top: 50px;
-    margin-bottom: 50px;
-    box-shadow: inset 0 -9px 9px rgba(37, 37, 37, 0.836), inset 0px 9px 9px rgba(37, 37, 37, 0.836);
-    padding-top: 95px;
+    box-shadow: inset 0 -7px 29px rgba(44, 44, 44, 0.836), inset 0px 7px 29px rgba(44, 44, 44, 0.836);
+    padding-top: 50px;
     padding-right: 90px;
     padding-left: 90px;
-    padding-bottom: 95px;
+    padding-bottom: 50px;
     width: 100%;
     display: none;
 }
@@ -358,8 +363,9 @@ table {
 .table-container {
     font-family: "raleway";
     text-align: left;
-    width: 100%;
-    margin: auto;
+    width: 66.4%;
+    margin: 20px auto;
+    border-spacing: 5px;
 }
 
 .table-header {
@@ -368,27 +374,27 @@ table {
 }
 
 .table-year {
-    width: 55px;
+    width: 1%;
     color: lightblue;
 }
 
 .table-title {
-    width: 550px;
+    width: 20%;
     color: #ff00cc;
 }
 
 .table-made-at {
-    width: 100px;
+    width: 4%;
     color: grey;
 }
 
 .table-built-with {
-    width: 145px;
+    width: 7%;
     color: grey;
 }
 
 .table-links {
-    width: 130px;
+    width: 7%;
 }
 
 .icon-link {
@@ -400,13 +406,25 @@ table {
 }
 
 .button-wrapper {
-    margin: 50px auto;
-    width: 80%;
-    display: inline;
+    margin-top: 50px;
 }
 
 #view-more-button {
-    margin-top: 40px;
+    display: block;
+    margin: auto;
+    border: solid 1px #ff00cc;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+#view-more-button {
     display: block;
     margin: auto;
     border: solid 1px #ff00cc;
@@ -434,9 +452,9 @@ table {
     left: 0;
 }
 
-.contact-icon{
+/* .contact-icon {
     background-color: transparent;
-}
+} */
 
 .contact-link-list:first-child{
     margin-top: 0;
