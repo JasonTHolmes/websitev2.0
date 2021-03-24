@@ -1,0 +1,41 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px - 1200px) */
+@media only screen and (max-width: 992px) {
+    .paragrsph {
+        width: 70%;
+    }
+    .about-paragraph {
+        font-size: 20px;
+        width: 50%;
+        margin-right: 0px;
+    }
+
+    .photo {
+        margin-top: 13px;
+        margin-left: 0px;
+        width: 30%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
