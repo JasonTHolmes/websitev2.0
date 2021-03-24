@@ -328,7 +328,7 @@ li {
 
 .even-para {
     margin-top: 50px;
-    margin-left: -290px;
+    margin-left: -240px;
 }
 
 #work {
@@ -384,7 +384,12 @@ li {
     width: 7%;
 }
 
+.link-icon {
+    width: 35px;
+}
+
 .icon-link {
+    width: 35px;
     margin-right:20px;
 }
 
@@ -447,40 +452,42 @@ li {
 .contact-icon,
 .contact-link,
 .contact-link-list {
+    width: 35px;
     background-color: transparent;
 }
 
 .email-link{
+    color: white;
     writing-mode: vertical-rl;
     position: fixed;
     bottom: 0;
     right: 0;
     margin-top: 0;
-    margin-right: 50px;
+    margin-right: 55px;
     margin-bottom: 120px;
     font-size: 17px;
-    letter-spacing: 3px;
+    letter-spacing: 3.3px;
     cursor: pointer;
 }
 
 .right-line {
     writing-mode: vertical-rl;
-    border-left: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(255, 255, 255);
     height: 100px;
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-right: 60px;
+    margin-right: 65px;
 }
 
 .left-line {
     writing-mode: vertical-rl;
-    border-left: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(255, 255, 255);
     height: 100px;
     position: fixed;
     bottom: 0;
     left: 0;
-    margin-left: 60px;
+    margin-left: 65px;
 }
 
 /* --------------------------------------- */
