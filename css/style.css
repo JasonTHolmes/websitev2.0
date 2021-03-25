@@ -1,0 +1,435 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "raleway", Arial, helvetica;
+    color: #BFCBC2;
+    background-color: #271177;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    scroll-behavior: smooth;
+    line-height: 140%;
+}
+
+html body {
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ----------------- FLOATS -------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+#logo,
+.navigation-link,
+.paragraph,
+.about-paragraph,
+.left-col,
+.contact-link-list-wrapper { float: left;}
+
+.nav-wrapper,
+#resume-button,
+.photo,
+.right-col,
+.email-link { float: right;}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* -------------- SECTIONS --------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    min-height: 99vh;
+    margin: auto;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ----------- BACKGROUND COLOR ---------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.email-link,
+.contact-icon,
+.contact-link,
+.contact-link-list,
+.contact-link-list-wrapper,
+.work-wrapper,
+.nav-wrapper,
+#resume-button { background-color: transparent;}
+
+nav,
+#logo,
+.navigation-list-container,
+.navigation-link-list,
+.navigation-list-text { background-color: #2e1291;}
+
+#more-work-list,
+.table-container,
+.table-header,
+.table-year,
+.table-title,
+.table-made-at, 
+.table-built-with,
+.table-links,
+.icon-link,
+.link-icon,
+.icon-link:hover { background-color: #261074;}
+
+#about-paragraph,
+.work-paragraph { background-color: #1a1b6d;}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ---------------- BUTTON --------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.button {
+    border: solid 1px #a90fa4;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color 0.4s, color 0.4s;
+    -webkit-transition: background-color 0.4s, color 0.4s;
+    -moz-transition: background-color 0.4s, color 0.4s;
+    -ms-transition: background-color 0.4s, color 0.4s;
+    -o-transition: background-color 0.4s, color 0.4s;
+}
+#resume-button:hover,
+.button:hover {
+    cursor: pointer;
+    background-color: #ff00cc2f;
+    color: white;
+}
+
+
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------- NAVIGATION BAR ---------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+nav {
+    box-shadow: 0 0 20px 10px rgb(34, 34, 34);
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    margin: 10px 0 10px 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#logo:hover {
+    box-shadow: inset 0 0 0 25px #ff00cc2f;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -ms-border-radius: 50% 50% 50% 50%;
+    -o-border-radius: 50% 50% 50% 50%;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nav-wrapper { margin: 10px 50px 0 0; }
+
+ol {
+    display: inline-block;
+    margin: 10px 30px 0 0;
+}
+
+li {
+    font-size: 15px;
+    font-family: 'roboto mono';
+    color: rgb(255, 255, 255);
+}
+
+.navigation-link {
+    margin: 0 50px;
+    list-style: decimal-leading-zero;
+}
+
+.navigation-link-list p:hover {
+    text-shadow: 1px 1px 15px white;
+    color: white;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ----------- HEADER CONTENT ------------ */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.header-one,
+.header-two,
+.header-three { margin: 15px 0;}
+
+.header-one,
+.header-two,
+.header-three { color: rgb(182, 182, 182);}
+
+.header-one { font-size: 60px;}
+
+.header-two,
+.header-three { font-size: 50px;}
+
+.section-header-list-style {
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+#header-paragraph {
+    width: 65%;
+    font-size: 25px;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ ABOUT SECTION ------------ */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.section-header { font-size: 30px;}
+
+.paragraph {
+    width: 60%;
+    margin: 15px 0;
+}
+
+
+#about-paragraph {
+    padding: 20px;
+    box-shadow: 10px 5px 30px 5px #051318;
+}
+
+#learn-more-button {
+    float: left;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+.photo {
+    margin-top: 13px;
+    width: 25%;
+    box-shadow: 7px 7px 0px 1px #ff00cc5b;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------WORK SECTION------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.section-header { margin-bottom: 20px;}
+
+.work-header1:hover,
+.work-header1,
+.work-wrapper,
+.work-website-window {
+    height: 200px;
+    width: 400px;
+}
+
+.work-paragraph {
+    font-size: 18px;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 10px 5px 30px 5px #051318;
+    margin: 50px 290px;
+}
+
+.work-wrapper:first-child { margin-top: 0px;}
+
+.work-wrapper {
+    margin: 165px 0px;
+    position: relative;
+}
+
+.work-wrapper:last-child { margin-bottom: 0;}
+
+.work-header1 {
+    background-color: rgba(102, 105, 119, 0.842);
+    position: absolute;
+}
+
+.work-header {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+}
+
+.work-header1:hover { background-color: rgba(255, 255, 255, 0);}
+
+.website-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.right-col { margin: 190px 0px 0px 0px;}
+
+.even-para {    
+    margin-top: 30px;
+    margin-left: -240px;
+}
+
+#work { padding-top: 70px;}
+
+#more-work-list {
+    margin-top: 60px;
+    box-shadow: inset 0 -7px 29px rgba(29, 29, 29, 0.836), inset 0px 7px 29px rgba(29, 29, 29, 0.836);
+    padding: 50px 90px 50px 90px;
+    width: 100%;
+    display: none;
+}
+
+.table-container {
+    font-family: "raleway";
+    text-align: left;
+    width: 66.4%;
+    margin: 20px auto;
+    border-spacing: 5px;
+}
+
+.table-header { font-family: "raleway";}
+
+.table-year { width: 1%;}
+
+.table-title {
+    width: 20%;
+    color: #ff00cc;
+}
+
+.table-made-at { width: 4%;}
+
+.table-links,
+.table-built-with { width: 7%;}
+
+.link-icon { width: 35px;}
+
+.icon-link {
+    width: 35px;
+    margin-right:20px;
+}
+
+.icon-link:hover { height: 30px;}
+
+.button-wrapper { margin-top: 50px;}
+
+#view-more-button {
+    display: block;
+    margin: auto;
+    border: solid 1px #a90fa4;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ---------- CONTACT SECTION ------------ */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+.contact-link-list-wrapper {
+    list-style-type: none;
+    margin-bottom: 120px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.contact-link-list:first-child{ margin-top: 0;}
+
+.contact-link-list:last-child { margin-bottom: 0;}
+
+.contact-link-list { margin: 40px 0 0 50px;}
+
+.email-link,
+.contact-icon,
+.contact-link,
+.contact-link-list { width: 35px;}
+
+.email-link{
+    color: white;
+    writing-mode: vertical-rl;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-top: 0;
+    margin-right: 55px;
+    margin-bottom: 120px;
+    font-size: 17px;
+    letter-spacing: 3.3px;
+    cursor: pointer;
+}
+
+.right-line,
+.left-line{
+    writing-mode: vertical-rl;
+    border-left: 2px solid white;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+}
+
+.right-line {
+    right: 0;
+    margin-right: 65px;
+}
+
+.left-line {
+    left: 0;
+    margin-left: 65px;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------FOOTER SECTION------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
