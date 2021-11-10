@@ -44,8 +44,6 @@ html body {
 /* --------------------------------------- */
 
 .wrapper {
-    border: solid 1px red;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -120,8 +118,6 @@ nav,
     color: white;
 }
 
-
-
 /* --------------------------------------- */
 /* --------------------------------------- */
 /* ------------- NAVIGATION BAR ---------- */
@@ -190,7 +186,7 @@ li {
 
 .header-one,
 .header-two,
-.header-three { margin: 15px 0;}
+.header-three { margin: 5px 0;}
 
 .header-one,
 .header-two,
@@ -340,8 +336,8 @@ li {
 }
 
 #work { padding-top: 70px;}
+ */
 
-*/
 
 #more-work-list {
     margin-top: 10px;
